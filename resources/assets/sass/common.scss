@@ -1,0 +1,99 @@
+
+body {
+  font-family: $font-stack;
+  font-size: 16px;
+  line-height: 26px;
+}
+h2 {
+  margin: 0 0 80px 0;
+  padding: 40px 0;
+  font-weight: bold;
+  text-align: center;
+  background: $primary-color;
+  color: #fff;
+}
+h3 {
+  margin: 50px 0;
+  font-weight: bold;
+  color: $secondary-color;
+}
+h3.first {
+  margin-top: 50px;
+}
+h4 {
+  margin: 40px 0;
+  font-weight: bold;
+  color: $secondary-color;
+}
+pre {
+  padding-top: 30px;
+  margin-top: 40px;
+}
+a {
+  font-weight: bold;
+  color: $primary-color;
+}
+a:hover {
+  color: $secondary-color;
+}
+#links ul {
+  list-style-type: none;
+}
+.alert {
+  padding-left: 30px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th,
+.table>tfoot>tr>td, .table>tfoot>tr>th,
+.table>thead>tr>td, .table>thead>tr>th {
+  border-top: none;
+  padding: 15px 8px 13px 8px;
+}
+
+.table img {
+  border: 1px solid #999;
+}
+.table>tbody {
+  border-bottom:  2px solid #ddd;
+  border-left:  2px solid #ddd;
+  border-right:  2px solid #ddd;
+}
+.clear {
+  clear: both;
+}
+.btn-primary {
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+}
+.btn-primary:hover {
+  background-color: $secondary-color;
+  border: 1px solid $secondary-color;
+}
+.btn-link {
+  color: $primary-color;
+}
+.btn {
+  margin-bottom: 10px;
+}
+.checkbox-line {
+  margin-bottom: 40px;
+}
+@media(min-width:768px){
+  h3.first {
+    margin-top: 50px;
+  }
+}
+@media(min-width:992px){
+  h3.first {
+    margin-top: 0;
+  }
+}
+@media(min-width:1200px){
+  h3.first {
+    margin-top: 0;
+  }
+}
+@media(min-width:1500px){
+  h3.first {
+    margin-top: 0;
+  }
+}

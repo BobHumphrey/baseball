@@ -1,0 +1,45 @@
+.navbar {
+  margin-top: 25px;
+}
+.navbar-brand {
+  padding: 0 15px 70px 15px;
+  margin-top: -15px;
+}
+.navbar-default,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background: #fff;
+  border: none;
+}
+.navbar-default .navbar-nav>li>a  {
+  color: $primary-color;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: $secondary-color;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background: #fff;
+  color:  $secondary-color;
+}
+.nav .open>a,
+.nav .open>a:focus, .nav .open>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background: #fff;
+}
+.dropdown-menu>li>a {
+  color: $primary-color;
+}
+.dropdown-menu>li>a:hover {
+  background: #fff;
+  color:  $secondary-color;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: $primary-color;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: $secondary-color;
+}
