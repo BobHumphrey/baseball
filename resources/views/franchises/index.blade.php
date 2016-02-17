@@ -9,6 +9,8 @@ Franchises
 
 @stop
 
+@section('pageClass') franchises-page @stop
+
 @section('content')
 
 <p>* indicates active franchise</p>

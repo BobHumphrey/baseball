@@ -3,3 +3,41 @@
 .navbar-form .form-group {
   vertical-align: top;
 }
+.navbar button, .navbar input {
+  margin-top: 4px;
+}
+.navbar-form input.form-control {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+}
+.standings table > tbody {
+  border-top: 2px solid #ddd;
+}
+.standings-team {
+  width: 40%;
+}
+.standings-w, .standings-l, .standings-pct, .standings-gb  {
+  width: 15%;
+}
+.team-totals span {
+  margin-right: 40px;
+}
+
+.franchises-page,
+.players-page,
+.team-page {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.player-page {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.standings-page {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.team-franchise-page {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}

@@ -14,7 +14,11 @@ $leaderL = 0;
 
 @stop
 
+@section('pageClass') standings-page @stop
+
 @section('content')
+
+<div class="standings">
 
 @foreach ($teams as $team)
 @if(($team->lgID != $previousLgID) || ($team->divID != $previousDivID))
@@ -55,4 +59,5 @@ $leaderL = $team->L;
   </tr>
   @endforeach
 </table>
+</div>
 @stop

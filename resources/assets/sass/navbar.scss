@@ -1,18 +1,25 @@
 .navbar {
-  margin-top: 25px;
+  margin-bottom: 0px;
+  padding: 5px 0;
 }
 .navbar-brand {
-  padding: 0 15px 70px 15px;
-  margin-top: -15px;
+  padding: 0 15px 0 25px;
+  margin-top: 2px;
+}
+.navbar-brand img {
+  width: 50px;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
 }
 .navbar-default,
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  background: #fff;
+  background: $navbar-background;
   border: none;
 }
 .navbar-default .navbar-nav>li>a  {
-  color: $primary-color;
+  color: $navbar-color;
 }
 .navbar-default .navbar-nav>li>a:hover {
   color: $secondary-color;
@@ -20,21 +27,25 @@
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  background: #fff;
+  background: $navbar-background;
   color:  $secondary-color;
+  text-decoration: underline;
 }
 .nav .open>a,
 .nav .open>a:focus, .nav .open>a:hover,
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
-  background: #fff;
+  background: $navbar-background;
+}
+.dropdown-menu {
+  background: $navbar-background;
 }
 .dropdown-menu>li>a {
   color: $primary-color;
 }
 .dropdown-menu>li>a:hover {
-  background: #fff;
+  background: $navbar-background;
   color:  $secondary-color;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
@@ -42,4 +53,9 @@
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
   color: $secondary-color;
+}
+@media(min-width:768px){
+  .navbar-nav>li>a {
+    padding-top: 18px;
+  }
 }

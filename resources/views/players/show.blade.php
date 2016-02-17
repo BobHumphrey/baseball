@@ -10,6 +10,8 @@ $name = $player->nameFirst . ' ' . $player->nameLast;
 
 @stop
 
+@section('pageClass') player-page @stop
+
 @section('content')
 
 <h3>Batting</h3>

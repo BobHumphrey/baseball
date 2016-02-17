@@ -6,12 +6,12 @@
   <link rel="stylesheet" href="/css/all.css">
 </head>
 <body>
-  @include('partials.navbar');
+  @include('partials.navbar')
   <section id="content">
     <div id="page-heading">
       <h2>@yield('pageTitle')</h2>
     </div>
-    <div class="container">
+    <div class="container @yield('pageClass')">
       @include('partials.alerts')
       @yield('content')
     </div>

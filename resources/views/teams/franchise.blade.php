@@ -10,6 +10,8 @@
 
 @stop
 
+@section('pageClass') team-franchise-page @stop
+
 @section('content')
 
 <div class="visible-xs-block visible-sm-block">

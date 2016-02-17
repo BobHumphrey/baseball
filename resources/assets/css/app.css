@@ -5,7 +5,7 @@ body {
   line-height: 26px; }
 
 h2 {
-  margin: 0 0 80px 0;
+  margin: 0;
   padding: 40px 0;
   font-weight: bold;
   text-align: center;
@@ -93,20 +93,27 @@ a:hover {
     margin-top: 0; } }
 
 .navbar {
-  margin-top: 25px; }
+  margin-bottom: 0px;
+  padding: 5px 0; }
 
 .navbar-brand {
-  padding: 0 15px 70px 15px;
-  margin-top: -15px; }
+  padding: 0 15px 0 25px;
+  margin-top: 2px; }
+
+.navbar-brand img {
+  width: 50px; }
+
+.navbar-nav > li > a {
+  padding-top: 10px; }
 
 .navbar-default,
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  background: #fff;
+  background: #E1F5FE;
   border: none; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #039BE5; }
+  color: #0288D1; }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #0D47A1; }
@@ -114,21 +121,25 @@ a:hover {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  background: #fff;
-  color: #0D47A1; }
+  background: #E1F5FE;
+  color: #0D47A1;
+  text-decoration: underline; }
 
 .nav .open > a,
 .nav .open > a:focus, .nav .open > a:hover,
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-  background: #fff; }
+  background: #E1F5FE; }
+
+.dropdown-menu {
+  background: #E1F5FE; }
 
 .dropdown-menu > li > a {
   color: #039BE5; }
 
 .dropdown-menu > li > a:hover {
-  background: #fff;
+  background: #E1F5FE;
   color: #0D47A1; }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -137,43 +148,100 @@ a:hover {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
   color: #0D47A1; }
 
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 18px; } }
+
+/* FOOTER ------------------------------------------------------------------- */
 footer {
-  padding-bottom: 100px;
-  background: #B3E5FC;
-  border-top: 2px solid #81D4FA;
-  margin-top: 80px; }
+  background: #B3E5FC; }
 
 footer .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   background: #B3E5FC;
   color: #0D47A1;
-  margin-top: 100px; }
+  padding-bottom: 50px;
+  font-size: 14px;
+  line-height: 23px; }
 
 .footer-title {
-  font-size: 18px;
   font-weight: bold;
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 .footer-title-top {
-  margin-top: 0; }
+  margin-bottom: 8px; }
 
-.footer-bh {
-  font-size: 24px;
-  margin-top: 0; }
+.footer-list {
+  padding: 0 60px; }
 
-.logo-row {
-  text-align: center; }
-
-.bh-row {
+.footer-list-last {
   text-align: center;
-  font-size: 24px;
   font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 80px; }
+  padding: 0 30px; }
 
-.bh-row a {
-  color: #0D47A1; }
+.footer-logo img {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  border: none; }
+
+.copyright {
+  height: 50px;
+  color: #039BE5;
+  font-size: 12px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #E1F5FE; }
+
+i.fa {
+  margin-left: 6px; }
 
 .navbar-form .form-group {
   vertical-align: top; }
+
+.navbar button, .navbar input {
+  margin-top: 4px; }
+
+.navbar-form input.form-control {
+  color: #039BE5;
+  border: 1px solid #039BE5; }
+
+.standings table > tbody {
+  border-top: 2px solid #ddd; }
+
+.standings-team {
+  width: 40%; }
+
+.standings-w, .standings-l, .standings-pct, .standings-gb {
+  width: 15%; }
+
+.team-totals span {
+  margin-right: 40px; }
+
+.franchises-page,
+.players-page,
+.team-page {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.player-page {
+  padding-top: 10px;
+  padding-bottom: 60px; }
+
+.standings-page {
+  padding-top: 10px;
+  padding-bottom: 60px; }
+
+.team-franchise-page {
+  padding-top: 60px;
+  padding-bottom: 30px; }
 
 /*# sourceMappingURL=app.css.map */

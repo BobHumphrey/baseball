@@ -37,7 +37,7 @@ switch($_SERVER['REQUEST_URI']) {
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Player Last Name" name="player">
         </div>
-        <button type="submit" class="btn btn-default">Show</button>
+        <button type="submit" class="btn btn-primary">Show</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li class="{{$franchises}}"><a href="{{$franchisesLink}}">FRANCHISES</a></li>
